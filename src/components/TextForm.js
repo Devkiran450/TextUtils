@@ -51,10 +51,10 @@ export default function TextForm(props) {
         ></textarea>
         <button className="btn btn-primary my-2" onClick={handleUpClick}>UpperCase</button>
         <button className="btn btn-primary mx-2" onClick={handleLoClick}>LowerCase</button>
-        <button className="btn btn-primary" onClick={handleClear}>Clear</button>
+        <button className="btn btn-primary my-2" onClick={handleClear}>Clear</button>
         <button className="btn btn-primary mx-2" onClick={handleCopy}>Copy</button>
         {/* <button className="btn btn-primary" onClick={handlePaste}>Paste</button> */}
-        <button className="btn btn-primary" onClick={removeSpaces}>Remove Extra Spaces</button>
+        <button className="btn btn-primary my-2" onClick={removeSpaces}>Remove Extra Spaces</button>
       </div>
       <div className="container my-3">
       <h1>Your Text Summary</h1>
